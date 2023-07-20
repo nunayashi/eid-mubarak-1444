@@ -3,14 +3,14 @@ module.exports = {
   content: ['index.html'],
   theme: {
     extend: {
+      backgroundImage: (theme) => ({
+        'hero-lg': "url('/img/hero-lg.jpg')",
+        'hero-sm': "url('/img/hero-sm.jpg')",
+    }),
       fontFamily: {
         almarai: ['Almarai'],
         poppins: ['Poppins']
-      }, 
-      backgroundImage: {
-        'hero': "url('./img/hero1.jpg')",
-        'hero3': "url('./img/hero3.jpg')",
-      },
+      },  
     },
   },
   plugins: [],
