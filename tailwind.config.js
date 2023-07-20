@@ -8,8 +8,9 @@ module.exports = {
         poppins: ['Poppins']
       }, 
       backgroundImage: {
-        'hero': "url('/img/hero1.jpg')",
-      }
+        'hero': "url('./img/hero1.jpg')",
+        'hero3': "url('./img/hero3.jpg')",
+      },
     },
   },
   plugins: [],
